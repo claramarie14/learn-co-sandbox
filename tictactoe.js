@@ -10,6 +10,11 @@ $(document).ready(function(){
  ["#0-2", "#1-1", "#2-0"] // forward slash
 ]
 
+
+
+
+
+
   $(".cell").on("click", markCell);
  
  
