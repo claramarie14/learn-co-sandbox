@@ -6,6 +6,8 @@ $(document).ready(function(){
  let TOM = "x"
  
  function markCell() {
+      this.innerText = TOM
+
       if (TOM === "x"){
     console.log ("o")}
       else {
@@ -14,7 +16,6 @@ $(document).ready(function(){
 
    
    
-   this.innerText = TOM
  }   
     
    
