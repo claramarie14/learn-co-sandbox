@@ -4,14 +4,13 @@ $(document).ready(function(){
  
  
  let TOM = "x"
- let JACOB = "o"
- 
+
  function markCell() {
   
-      if (i%2===0){
+      if (i){
     console.log (TOM)}
       else {
-    console.log (JACOB)}
+    console.log ("o")}
   }
 
    
