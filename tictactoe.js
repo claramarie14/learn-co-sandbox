@@ -7,9 +7,9 @@ $(document).ready(function(){
  
  function markCell() {
       if (TOM === "x"){
-    console.log (TOM)}
-      else {
     console.log ("o")}
+      else {
+    console.log (TOM)}
   }
 
    
