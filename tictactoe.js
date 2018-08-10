@@ -35,16 +35,17 @@ function playerWon(mark) {
  let COUNTER = 0
  
  function markCell() {
-     if (this.innerText === ""){
+     if (this.innerText === "") {
        
        this.innerText = TOM
        COUNTER = COUNTER +1
        
        if (playerWon(TOM)) {
          
-         alert("player " + TOM +" big whoop, u won the game. do u feel the power going thru ur fingertips? is the satisfaction enough? to fulfill your sad life?")
+         console.log("player " + TOM +" big whoop, u won the game. do u feel the power going thru ur fingertips? is the satisfaction enough? to fulfill your sad life?")
          
        } else if (COUNTER === 9) {
+         
          console.log("tied game losers")
        }
        
