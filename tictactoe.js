@@ -17,21 +17,6 @@ $(document).ready(function(){
         TOM ="x"
     console.log (TOM)}
   
-
-   
-     }
- }   
-    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    
+  }
+}   
 })
