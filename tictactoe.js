@@ -36,7 +36,15 @@ function playerWon(mark) {
  
  function markCell() {
      if (this.innerText === ""){
+       
        this.innerText = TOM
+       
+       if (playerWon(TOM)) {
+         
+         alert(TOM + "big whoop, u won the game. do u feel the power going thru ur fingertips")
+         
+       }
+       
 
       if (TOM === "x"){
         TOM = "o"
