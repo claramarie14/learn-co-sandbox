@@ -9,7 +9,7 @@ $(document).ready(function(){
       this.innerText = TOM
 
       if (TOM === "x"){
-    console.log ("o")}
+    console.log (TOM)}
       else if (TOM === "o"){
     console.log (TOM)}
   
