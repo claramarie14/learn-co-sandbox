@@ -3,7 +3,7 @@ body {
   align-items: center;
   align-content: center;
   justify-content: center;
-  background-color: lightblue;
+  background-color: #605;
   animation: background-shimmer 20s forwards infinite;
 }
 
