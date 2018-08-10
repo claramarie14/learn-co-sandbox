@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  
+  
+  
+  
   $(".cell").on("click", markCell);
  
  
