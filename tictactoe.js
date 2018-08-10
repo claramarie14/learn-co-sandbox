@@ -10,7 +10,7 @@ $(document).ready(function(){
 
       if (TOM === "x"){
     console.log ("o")}
-      else {
+      else if (TOM === "o"){
     console.log (TOM)}
   
 
