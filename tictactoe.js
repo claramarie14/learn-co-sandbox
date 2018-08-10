@@ -9,7 +9,7 @@ $(document).ready(function(){
  function markCell() {
    
    for (var i=MARK;  i <= 100; i++){
-    if (i%2==0){
+    if (i%2===0){
     console.log ("MARK")}
     else {
     console.log ("o")}
