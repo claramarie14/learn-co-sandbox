@@ -12,7 +12,7 @@ $(document).ready(function(){
     console.log ("o")}
       else {
     console.log (TOM)}
-  }
+  
 
    
    
