@@ -4,7 +4,7 @@ $(document).ready(function(){
  
  
  let MARK = "x"
- 
+ let TEST = "o"
  
  function markCell() {
    
