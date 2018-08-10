@@ -5,8 +5,10 @@ $(document).ready(function(){
  
  let TOM = "x"
  
+ 
  function markCell() {
-      this.innerText = TOM
+     if (this.innerText === ""){
+       this.innerText = TOM
 
       if (TOM === "x"){
         TOM = "o"
