@@ -4,10 +4,9 @@ $(document).ready(function(){
  
  
  let TOM = "x"
- let JACOB = "o"
  
  function markCell() {
-      if (){
+      if (TOM === "x"){
     console.log (TOM)}
       else {
     console.log ("o")}
