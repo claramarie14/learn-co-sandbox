@@ -61,6 +61,17 @@ function playerWon(mark) {
 }   
 
 
+function resetGame() {
+  COUNTER = 0
+  TOM = "x"
+  $('.cell').text("")
+  
+  
+}
+
+
+
+
 
 
 })
