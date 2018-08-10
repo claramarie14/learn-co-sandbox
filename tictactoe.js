@@ -12,7 +12,7 @@ $(document).ready(function(){
       if (i%2===0){
     console.log (MARK)}
       else {
-    console.log ("o")}
+    console.log (TEST)}
   }
 
    
