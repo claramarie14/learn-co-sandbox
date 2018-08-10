@@ -7,7 +7,7 @@ $(document).ready(function(){
  
  
  function markCell() {
-     if (this.innerText === ""){
+     if (this.innerText === ""){}
        this.innerText = TOM
 
       if (TOM === "x"){
