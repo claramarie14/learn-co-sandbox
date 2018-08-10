@@ -9,10 +9,10 @@ $(document).ready(function(){
       this.innerText = TOM
 
       if (TOM === "x"){
-        TOM === "o"
+        TOM = "o"
     console.log (TOM)}
       else if (TOM === "o"){
-        TOM==="x"
+        TOM ="x"
     console.log (TOM)}
   
 
