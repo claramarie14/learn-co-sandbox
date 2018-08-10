@@ -32,12 +32,13 @@ function playerWon(mark) {
  
  
  let TOM = "x"
- 
+ let COUNTER = 0
  
  function markCell() {
      if (this.innerText === ""){
        
        this.innerText = TOM
+       COUNTER = COUNTER +1
        
        if (playerWon(TOM)) {
          
