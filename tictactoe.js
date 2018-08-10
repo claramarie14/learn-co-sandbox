@@ -42,11 +42,11 @@ function playerWon(mark) {
        
        if (playerWon(TOM)) {
          
-         console.log("player " + TOM +" big whoop, u won the game. do u feel the power going thru ur fingertips? is the satisfaction enough? to fulfill your sad life?")
+         alert("player " + TOM +" big whoop, u won the game. do u feel the power going thru ur fingertips? is the satisfaction enough? to fulfill your sad life?")
          
        } else if (COUNTER === 9) {
          
-         console.log("tied game losers")
+         alert("tied game losers")
        }
        
 
