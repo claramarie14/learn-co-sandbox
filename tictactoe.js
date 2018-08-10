@@ -3,7 +3,22 @@ $(document).ready(function(){
       alert("I was clicked!")
 
     });
+ 
+ 
+ function markCell() {
+   this.innerText = "x"
+ }   
     
-    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
     
 })
