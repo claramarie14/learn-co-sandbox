@@ -43,10 +43,12 @@ function playerWon(mark) {
        if (playerWon(TOM)) {
          
          alert("player " + TOM +": u won that's hella tight")
+         resetGame()
          
        } else if (COUNTER === 9) {
          
          alert("tied game losers")
+         resetGame()
        }
        
 
